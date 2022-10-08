@@ -14,6 +14,8 @@ TAG = ""
 reset_trophy = None
 reset_sp = None
 
+ip = requests.get('https://api.ipify.org').text
+print(f'My public IP address is: {ip}')
 
 def season_reset(response):
     global reset_trophy, reset_sp
