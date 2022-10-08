@@ -1,0 +1,42 @@
+#brawlstats-logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+}
+.body {
+  background-color: black;
+  color: rgba(240, 248, 255, 0.801);
+  min-height: 100vh;
+}
+.account {
+  margin-right: 25px;
+  font-weight: 600;
+  font-size: 20px;
+}
+@media screen and (min-width:576px) {
+  .content {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.content .container-fluid{
+    padding: 20px 20px;
+    
+    font-size: 20;
+    border: 1px solid white ;
+}
+.section-name {
+
+}
+.section-value {
+}
+.club-stats {
+  margin-top: 20px;
+}
+.victory-stats {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
